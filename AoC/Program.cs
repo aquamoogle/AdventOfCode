@@ -7,7 +7,7 @@ internal class Program
     private static async Task Main(string[] args)
     {
         var day = new AoC.Y22.Day4();
-        var solution = await day.Part1();
+        var solution = await day.Part2();
         //var altSolution = await day.AltPart1();
         SetText(solution);
 
